@@ -1,0 +1,27 @@
+name: Royal-Gold
+options:
+  bundleIdPrefix: com.husseinroyal
+  deploymentTarget:
+    iOS: "14.0"
+  xcodeVersion: "14.0"
+
+targets:
+  Royal-Gold:
+    type: application
+    platform: iOS
+    sources:
+      - path: .
+    resources:
+      - path: Assets.xcassets
+    info:
+      path: Info.plist
+      properties:
+        CFBundleName: Royal-Gold
+        CFBundleIdentifier: com.husseinroyal.royalgold
+        UILaunchStoryboardName: LaunchScreen
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UIRequiredDeviceCapabilities:
+          - armv7
